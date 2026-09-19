@@ -1,4 +1,9 @@
 *This project has been created as part of the 42 curriculum by acaldeir, bliu, vloureir, rusilva-.*
+> **Note**: This repository is a standalone portfolio mirror of the collaborative 42 project developed in the team repository: [ruimouradev/ft_transcendence](https://github.com/ruimouradev/ft_transcendence).
+### Individual Contributions
+* **Real-time Engine & WebSockets:** Designed and implemented asynchronous game room lifecycles, event broadcasting, reconnection windows, and state synchronization (`backend/app/realtime/ws.py`).
+* **Heuristic AI Opponent:** Designed and built rule-based bot players featuring multi-tier difficulty levels (Easy, Medium, Hard), automated UNO declarations, challenge logic, and reactive catching (`backend/app/game/ai.py`).
+* **Telemetry & Match Persistence:** Integrated real-time Prometheus move metrics and asynchronous database handoffs for match history persistence.
 
 # ft_transcendence, Uno
 
